@@ -150,14 +150,14 @@ main {
   margin-left: 0;
   padding-bottom: 40px;
   background-color: #edefee;
-  color: #000;
+  color: #d2a74a;
 }
 
 .title h3 {
   left: 0;
   padding-top: 50px;
   margin-left: 0;
-  color: #000;
+  color: #d2a74a;
   text-transform: capitalize;
   text-align: center;
 }
@@ -224,12 +224,12 @@ main .slider {
   .title h3 {
     padding: auto;
     margin: auto;
-    color: #000;
+    color: blue;
     text-align: center;
     padding-top: 25px;
   }
   .titles h3 {
-    color: #000;
+    color: blue;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 10px;
@@ -262,13 +262,13 @@ main .slider {
     padding-bottom: 0;
   }
   .title h3 {
-    color: #000;
+    color: #d2a74a;
     text-align: center;
     padding-top: 15px;
   }
   .titles h3 {
     padding-bottom: 5px;
-    color: #000;
+    color: #d2a74a;
     text-align: center;
   }
   .swiper .swiper-button-next,
@@ -1619,7 +1619,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 .about1 {
   background-image: url("images/DSC_0441.JPG");
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1636,7 +1636,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 #about .worb {
   background-color: #edefee;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -1651,7 +1651,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   justify-self: start;
   align-self: center;
   padding: 1px;
-  height: 100vh;
+  height: 100%;
   padding-top: 50px;
 }
 .one p {
@@ -1663,7 +1663,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 .two h3 {
   justify-self: center;
@@ -1682,7 +1682,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 .worb .three {
   display: flex;
   justify-content: space-between;
-  height: 90vh;
+  height: 100%;
 }
 .three h3 {
   justify-self: flex-start;
@@ -1702,7 +1702,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 .worb .four {
   display: flex;
-  height: 100vh;
+  height: 100%;
   padding-bottom: 20px;
 }
 .four h3 {
@@ -1741,7 +1741,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 @media (max-width: 576px) {
   .worb {
-    max-height: 100vh;
+    max-height: 100%;
     width: 100%;
     text-align: center;
     padding: 30px;
@@ -1780,7 +1780,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 #wedding {
   background-color: #edefee;
 
-  height: 80vh;
+  height: 100%;
   padding: 15px 20px;
   display: flex;
   flex-direction: column;
@@ -1834,17 +1834,17 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 
 /*styles for contact us*/
 .kontact {
-  background-image: url("images/IMG_20220105_184226.jpg");
+  background-image: url("images/KIMG0495.JPG");
   background-attachment: fixed;
-  height: 600px;
-  width: 100%;
+  height: 100%;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
+  padding: 20px 10px 25px 10px;
   margin-bottom: 20px;
   max-height: 500px;
-  overflow: hidden;
 }
 .kontact h3 {
   line-height: 1.2;
@@ -1854,7 +1854,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 #contact .full {
   background-color: #edefee;
 
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -1879,7 +1879,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .second .touch {
   justify-self: center;
@@ -1893,7 +1893,6 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   font-size: 20px;
   margin: 5px;
   padding: 15px;
-  margin-top: 50px;
 }
 .touch > p {
   font-size: 19px;
@@ -1923,8 +1922,6 @@ select textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 10px;
-  outline: none;
 }
 form #subject {
   width: 100%;
@@ -1934,8 +1931,6 @@ form #subject {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 10px;
-  outline: none;
 }
 form input[type="submit"] {
   background-color: blue;
@@ -1952,15 +1947,20 @@ form input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .kontact {
+    object-fit: contain !important;
     width: 100%;
-    height: 90vh;
+    height: 500px !important;
+    max-height: auto !important;
+    padding: 30px auto;
+    max-width: 760px;
+    background-position: center;
   }
   .second {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
   .second .touch {
@@ -1978,24 +1978,21 @@ form input[type="submit"]:hover {
     width: 100%;
     height: 100%;
   }
-  .touch h3 {
-    padding-top: 85px;
-    margin-top: 50px;
-  }
 }
 @media (max-width: 576px) {
   .kontact {
-    height: 90vh;
-    width: 600px;
-    padding: 5px 10px;
-    margin: auto;
+    height: 400px !important;
+    margin: 0px auto;
+    width: 560px;
+    margin-bottom: 10px;
+    align-items: center;
   }
   .second {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
   .second .touch {
@@ -2016,11 +2013,5 @@ form input[type="submit"]:hover {
   }
   .touch h3 {
     padding-top: 85px;
-  }
-}
-@media (max-width: 320px) {
-  .touch h3 {
-    padding-top: 85px;
-    margin-top: 50px;
   }
 }
