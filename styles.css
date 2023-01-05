@@ -630,12 +630,7 @@ h4.imggrid2 {
 
 /*whatsapp styles*/
 .qlwapp-whatsapp-icon {
-  font-family: "qlwapp-whatsapp" !important;
-<<<<<<< HEAD
-  speak: none;
-=======
->>>>>>> 760e625 (mesh executive services)
-  font-style: normal;
+  font-family: "qlwapp-whatsapp" !important; font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
