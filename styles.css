@@ -11,8 +11,11 @@ html,
 body {
   background-color: #edefee;
   font-size: 18px;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
   overflow-x: hidden;
+  position: fixed;
 }
 
 .navigation {
