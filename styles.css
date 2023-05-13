@@ -6,15 +6,13 @@
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
+
+html,
 body {
   background-color: #edefee;
   font-size: 18px;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  height: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  position: relative;
 }
 
 .navigation {
@@ -514,7 +512,7 @@ h4.imggrid2 {
     height: 1rem;
   }
   .slick-slide img {
-    width: 150%;
+    width: auto;
     height: 80px;
   }
 }
